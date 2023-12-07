@@ -8,5 +8,4 @@ Qinghua Hu, Luona Ji, Yu Wang, Shuai Zhaoa, Zhibin Lin
 
 The proposed method is implemented based on the [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection).
 
-
-<!-- UADL.pdf -->
+UADL.pdf

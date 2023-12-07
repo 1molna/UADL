@@ -10,8 +10,6 @@ The proposed method is implemented based on the [open-mmlab/mmdetection](https:/
 
 ![UADL](UADL.jpg)
 
-  The framework of UADL. UADL utilizes GMMs to measure uncertainty and detect two types of unlabeled samples: (1) unfamiliar samples of known classes $X_U^{kn}$ and (2) samples containing novel classes $X_U^{un}$, in two stages (Stage I: unfamiliar detection of known classes and Stage II: unknown detection of novel classes). In Stage I, GMMs model the classification and regression localization heads to estimate known-class uncertainty $U^{kn}$. This uncertainty predicts the model's familiarity with each sample. In Stage II, the feature of known classes is clustered and modeled by class-specific GMMs to calculate the candidate sample's unknown-class uncertainty $U^{unkn}$. This uncertainty assesses the presence of novel classes. In both stages, a limited number of highly uncertain samples are selected for manual labeling. These labeled samples $\{X_{L_{kn}}, Y_{L_{kn}}\}$ and $\{X_{L_{un}}, Y_{L_{un}}\}$ are used to train the model to learn unfamiliar known classes and unknown novel classes separately.
-
 
 **Abstract**
 

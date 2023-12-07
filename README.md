@@ -28,11 +28,11 @@ The code is build on [open-mmlab/mmdetection](https://github.com/open-mmlab/mmde
 }
 
 @article{miller2021uncertainty,
-  title={Uncertainty for Identifying Open-Set Errors in Visual Object Detection},
-  author={Miller, Dimity and S{\"u}nderhauf, Niko and Milford, Michael and Dayoub, Feras},
-  journal={IEEE Robotics and Automation Letters}, 
-  year={2021},
-  pages={1-1},
-  doi={10.1109/LRA.2021.3123374}
+    title     = {Uncertainty for Identifying Open-Set Errors in Visual Object Detection},
+    author    = {Miller, Dimity and S{\"u}nderhauf, Niko and Milford, Michael and Dayoub, Feras},
+    journal   = {IEEE Robotics and Automation Letters}, 
+    year      = {2021},
+    pages     = {1-1},
+    doi       = {10.1109/LRA.2021.3123374}
 }
 ```
